@@ -9,16 +9,20 @@
     <title>Document</title>
 </head>
 <body>
-   <div>
-    <div>
-        <button onclick="tetrimino.girar()" >Arriba</button>
-        <button onclick="tetrimino.moverAbajo()">abajo</button>
+   <div class="contenedor-btn-general">
+    <div class="arriba">
+        <button onclick="tetrimino.girar()">Arriba</button>
+        
+    </div>
+
+    <div class="contenedor-btn">
+        <button onclick="tetrimino.moverIzquierda()">izquierda</button>
+        <button onclick="tetrimino.moverDerecha()">Derecha</button>
 
     </div>
     <div>
-
-        <button onclick="tetrimino.moverDerecha()">Derecha</button>
-        <button onclick="tetrimino.moverIzquierda()">izquierda</button>
+        
+        <button onclick="tetrimino.moverAbajo()">abajo</button>
     </div>
    </div>
     
