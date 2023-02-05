@@ -1,6 +1,6 @@
 class Tablero{
     constructor(){
-        this.columnas = 10
+        this.columnas = 8
         this.filas = 20
         this.lado_celda = 25
         this.ancho = this.columnas*this.lado_celda
